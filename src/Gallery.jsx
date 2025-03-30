@@ -85,7 +85,7 @@ function Carousel() {
         {images.map((image, index) => (
           <div key={index}>
             <img
-              src={"src/assets/images/gallery/" + image.fileName}
+              src={"src/assets/images/" + image.fileName}
               alt={image.alt}
               className="galleryImage relative"
               ref={observedDiv}
